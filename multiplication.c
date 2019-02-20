@@ -2,14 +2,10 @@
  
 int main()
 {
-   int a, b, c;
-   
-  
-   scanf("%d%d", &a, &b);
-   
+   int a=10;
+   int b=10; 
+   int c;
    c = a + b;
-   
    printf("%d", c);
-   
    return 0;
 }
