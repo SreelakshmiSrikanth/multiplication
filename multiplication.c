@@ -2,11 +2,11 @@
  
 int main()
 {
-   int a, b, c;
+   int a=10, b=10, c;
    
    scanf("%d%d", &a, &b);
    
-   c = a + b;
+   c = a * b;
    
    printf("%d", c);
    
