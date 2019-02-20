@@ -1,15 +1,17 @@
-#include<stdio.h>
- 
+#include <stdio.h>
 int main()
 {
-   int a=10, b=10, c;
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    
    
-  
+    scanf("%d %d", &firstNumber, &secondNumber);
+
    
-  
-   c = a + b;
-   
-   printf("%d", c);
-   
-   return 0;
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+        
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+
+    return 0;
 }
